@@ -10,7 +10,7 @@ export const Login = () => {
       <img src={logo} alt="logo" className="mb-6" />
       <h1 className="text-xl text-white font-bold mb-10">Auth Login Project</h1>
 
-      <div className="flex flex-col gap-6">
+      <form className="flex flex-col gap-6 mb-8">
         <label htmlFor="user">
           <h2 className="text-gray-300 text-md mb-3">User</h2>
 
@@ -41,15 +41,15 @@ export const Login = () => {
           </TextInput.Root>
         </label>
 
-        <Button className="mb-2">Login</Button>
+        <Button>Login</Button>
+      </form>
 
-        <a href="" className="text-gray-300 text-center underline">
-          New here? Create a new account
-        </a>
-        <a href="" className="text-gray-300 text-center underline">
-          Forgot password
-        </a>
-      </div>
+      <a href="" className="text-gray-300 text-center underline mb-3">
+        New here? Create a new account
+      </a>
+      <a href="" className="text-gray-300 text-center underline">
+        Forgot password
+      </a>
     </div>
   );
 };
