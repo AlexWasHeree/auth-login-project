@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../assets/logoAuth.svg';
 import { TextInput } from '../../components/TextInput';
 import { UserCircle, Key } from 'phosphor-react';
+import { Button } from '../../components/Button';
 
 export const Login = () => {
   return (
@@ -25,7 +26,7 @@ export const Login = () => {
           </TextInput.Root>
         </label>
 
-        <label htmlFor="password">
+        <label htmlFor="password" className="mb-2">
           <h2 className="text-gray-300 text-md mb-3">Password</h2>
 
           <TextInput.Root>
@@ -39,6 +40,15 @@ export const Login = () => {
             ></TextInput.Input>
           </TextInput.Root>
         </label>
+
+        <Button className="mb-2">Login</Button>
+
+        <a href="" className="text-gray-300 text-center underline">
+          New here? Create a new account
+        </a>
+        <a href="" className="text-gray-300 text-center underline">
+          Forgot password
+        </a>
       </div>
     </div>
   );
