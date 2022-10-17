@@ -6,6 +6,8 @@ module.exports = {
   ],
   theme: {
     colors: {
+      transparent: 'transparent',
+
       black: "#000000",
       white: '#ffffff',
 
@@ -26,7 +28,7 @@ module.exports = {
     fontSize: {
       xs: 10,
       sm: 12,
-      md: 16,
+      md: 18,
       lg: 24,
       xl: 32,
       "2xl": 36 
