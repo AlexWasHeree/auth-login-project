@@ -27,7 +27,7 @@ export const Login = () => {
         </label>
 
         <label htmlFor="password" className="mb-2">
-          <h2 className="text-gray-300 text-md mb-3">Password</h2>
+          <h2 className="text-gray-300 text-md mb-6">Password</h2>
 
           <TextInput.Root>
             <TextInput.Icon>

@@ -41,7 +41,7 @@ export const Signup = () => {
           </TextInput.Root>
         </label>
 
-        <label htmlFor="password" className="mb-2">
+        <label htmlFor="password" className="mb-6">
           <h2 className="text-gray-300 text-md mb-3">Password</h2>
 
           <TextInput.Root>
