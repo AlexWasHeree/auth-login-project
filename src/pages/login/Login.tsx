@@ -50,6 +50,12 @@ export const Login = () => {
       <a href="" className="text-gray-300 text-center underline">
         Forgot password
       </a>
+
+      <span className="absolute bottom-6">
+        <h3 className="text-gray-100">
+          <strong>Alex</strong>WasHere
+        </h3>
+      </span>
     </div>
   );
 };
